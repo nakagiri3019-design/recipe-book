@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>レシピ集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="topbar__home" href="#/">レシピ集</a>
+    <div class="topbar__search">
+      <input id="search" type="search" placeholder="レシピ名・材料で探す" autocomplete="off" aria-label="レシピ検索">
+    </div>
+  </header>
+
+  <main id="app" class="app" aria-live="polite">
+    <p class="loading">読み込み中…</p>
+  </main>
+
+  <footer class="foot">レシピデータは <code>recipes/</code> に保存されています。</footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
